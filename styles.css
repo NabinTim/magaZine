@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #11998E, #38EF7D);
+
+
+}
+
+.logo {
+    background-color: rgba(54, 131, 239, 0.71);
+    display: inline-block;
+    border-bottom-left-radius: 10px;
+    padding: 10px 20px;
+    transition: all .5s ease-in-out;
+    box-shadow: 0px 1px 14px 1px rgb(0 0 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    cursor: pointer;
+    border-color: rgba(54, 131, 239, 0.71);
+}
+
+.logo:hover {
+    background-color: #a21818;
+    .home{
+        color:black
+
+    }
+    .base{
+        color:rgba(54, 131, 239, 0.71)
+    }
+    
+}
+
+.home {
+    color: #a21818;
+}
+.base{
+    color: White;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(191 240 152 / 85%), rgb(111 214 255 / 36%));
+    display: inline-block;
+    justify-content:space-evenly;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    box-shadow: 8px 3px 14px 1px rgb(0 0 0);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    padding-left: 10.3cm;
+    padding-right: 15cm;
+    padding-top: 20px;
+    padding-bottom: 26px;
+    border-color: green;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.dog-day {
+    background-image: linear-gradient(rgb(191 240 152 / 85%), rgb(111 214 255 / 36%));
+    display: inline-block;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+    position: absolute;
+    top: calc(120px + 20px);
+    margin-right: 20px;
+    left: 20px;
+    z-index: 0;
+    box-shadow: 0px 1px 14px 1px rgb(0 0 0);
+}
+
+.image1 img {
+    height: 13cm;
+    width: 13cm;
+    margin-left: 20px;
+    margin-top: 11cm;
+    border-radius: 15px;
+    box-shadow: 0px 1px 14px 1px rgb(0 0 0);
+}
+.image1 img:hover {
+    height: 13cm;
+    width: 13cm;
+    margin-left: 20px;
+    margin-top: 11cm;
+    border-radius: 15px;
+    box-shadow: 0px px 14px 1px rgb(255, 9, 9);
+}
+
+
+
+.image2 img{
+    height: 13cm;
+    width: 13cm;
+    margin-left: 20px;
+    margin-top: 11cm;
+    border-radius: 15px;
+    box-shadow: 0px 1px 14px 1px rgb(0 0 0);
+}
+
+.slope {
+    display: inline-block;
+    width: 16cm;
+    position: absolute;
+    top: 464px;
+    left: 20cm;
+    line-height: 30px;
+    color: black;
+    background-image: linear-gradient(rgb(191 240 152 / 85%), rgb(111 214 255 / 36%));
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 9px;
+    box-shadow: 0px 1px 14px 1px rgb(0 0 0);
+}
+
+.first{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: red; */
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #a21818;
+}
+.horseshoe, .bluemountain,.sir_sams {
+    text-decoration: none;
+    color: #a21818;
+    font-weight: bolder;
+}
+.title1{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.nav .one a {
+    color: #a21818;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.nav .one a:hover{
+    background-color: #a21818;
+    color:#75cfa4;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+
+
+.nav .two a {
+    color:  #a21818;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.nav .two a:hover{
+    background-color: #a21818;
+    color:#75cfa4;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+
+.nav .three a {
+    color:  #a21818;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.nav .three a:hover{
+    background-color: #a21818;
+    color:#75cfa4;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 15px;
+}

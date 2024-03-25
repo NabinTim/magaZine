@@ -1,24 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0; /* Reset default margin */
-    padding: 0; /* Reset default padding */
+    margin: 0; 
+    padding: 0; 
 }
 
 #container {
     width: 80%;
     margin: 0 auto;
-    overflow: hidden; /* Clearfix for floats inside */
-    padding: 20px 0; /* Add some space at the top and bottom */
-    box-sizing: border-box; /* Include padding and border in width calculation */
+    overflow: hidden; 
+    padding: 20px 0;
+    box-sizing: border-box; 
 }
 
 header {
     background: #f4f4f4;
     padding: 20px;
     text-align: center;
-    margin-bottom: 20px; /* Add some space at the bottom */
+    margin-bottom: 20px; 
+    color: rgb(177, 22, 22);
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s; /* Transitions background color and text color */
+    font-family: "Noticia Text", serif;
+    
 }
+
+header:hover {
+    background: rgb(177, 22, 22);
+    color: #f4f4f4;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+.markk {
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.url{
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+
 
 .img1{
     height: 8cm;
@@ -26,6 +54,9 @@ header {
     float: left;
     padding-right: 1cm;
     border-radius: 10px;
+  
+
+    
 }
 .img2{
     height: 8cm;
@@ -35,16 +66,25 @@ header {
     margin-right: 0;
     border-radius: 10px;
 
+
+}
+
+.img3 {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin-top: 2cm;
+    border-radius: 10px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em; /* Increase header font size */
+    font-size: 2em; 
 }
 
 main {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap; 
 }
 
 article {
@@ -52,23 +92,60 @@ article {
     padding: 20px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Add some space at the bottom */
+    margin-bottom: 20px; 
 }
 
 aside {
-    width: 30%;
-    padding: 20px;
+    width: 46.5%;
+    padding-bottom: 5cm;
+    padding-left: 20px;
+    padding-right: 20px;
     background: #f4f4f4;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Add some space at the bottom */
+    margin-bottom: 20px;
+    height: 12cm; 
+    transition: ease-in background-color 0.2s;
+
+    
+}
+
+aside:first-child {
+    border-right: 5px solid black;
+}
+
+aside:last-child {
+    border-left: 1px solid black;
+}
+
+
+
+aside:hover {
+    background: rgba(184, 179, 179, 0.621);
+    
 }
 
 h2 {
     margin-bottom: 10px;
+    font-family: "ABeeZee", sans-serif;
+    transition: ease-in-out  color  0.2s;
+}
+h2:hover {
+    background-image: linear-gradient(to left, rgb(0, 255, 47), rgb(255, 94, 0)); 
+    background-clip: text;
+    color: transparent;
 }
 
+
+.first{
+    color: rgb(37, 213, 46);
+    text-align: center;
+    font-weight: bolder;
+}
 p {
     margin: 0 0 20px;
+    font-family: "Alegreya Sans", sans-serif;
+    text-align: justify;
+    line-height: 30px;
+
 }
 
 footer {
@@ -76,15 +153,31 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+    font-size: larger;
+}
+
+.abbr{
+    text-decoration: none;
+    color: rgb(255, 255, 255);    
+}
+
+.last{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
 footer p {
     margin: 0;
 }
 
+
 time {
-    color: #999;
+    color: #000000;
+    font-size:18px;
+    font-weight: bold;
 }
 
 a {
@@ -100,4 +193,20 @@ a:hover {
 mark {
     background: #ff0;
     padding: 2px 5px;
+}
+
+@media screen and (max-width: 433px) {
+    #container {
+        width: 100%;
+    }
+    
+    header {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    
+    footer {
+        padding: 5px;
+    }
 }
